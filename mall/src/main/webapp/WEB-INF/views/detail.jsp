@@ -1,9 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>MALL</title>
+    <title>Mall</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,31 +27,31 @@
         </div>
     </div>
 </nav>
-
 <div class="container mt-3">
-    <table class="table">
-        <thead>
-          <tr>
-              <th>상품번호</th>
-              <th>상품명</th>
-              <th>상품가격</th>
-              <th>상품재고</th>
-          </tr>
-        </thead>
-        <tbody>
-        <c:forEach var="p" items="${productList}">
-<%--            p.id만 적어도 getter를 호출--%>
-            <tr>
-                <td>${p.id}</td>
-                <td><a href="/product/${p.id}">${p.name}</a></td>
-                <td>${p.price}원</td>
-                <td>${p.qty}개</td>
-            </tr>
-        </c:forEach>
+    <form action="/product/update" method="post" enctype="application/x-www-form-urlencoded">
+        <div class="mb-3 mt-3">
+            <input type="text" class="form-control" value="${p.id}" name="id">
+        </div>
+        <div class="mb-3 mt-3">
+            <input type="text" class="form-control" value="${p.name}" name="name">
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" value="${p.price}" name="price">
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" value="${p.qty}" name="qty">
+        </div>
+        <button type="submit" class="btn btn-primary">상품수정</button>
 
-        </tbody>
-    </table>
+    </form>
+    <form action="/product/delete" method="post">
+        <input type="hidden" class="form-control" value="${p.id}" name="id">
+        <button type="submit" class="btn btn-danger">상품삭제</button>
+    </form>
+    <%--    폼태그는 겟과 포스트요청만 가능--%>
+    <%--    <form action="product/${p.id}/delete" method="post">--%>
+    <%--        <button type="submit" class="btn btn-danger">상품삭제</button>--%>
+    <%--    </form>--%>
 </div>
-
 </body>
 </html>

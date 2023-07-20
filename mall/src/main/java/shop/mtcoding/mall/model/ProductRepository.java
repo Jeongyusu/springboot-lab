@@ -32,4 +32,50 @@ public class ProductRepository {
         return productList;
 
     }
+
+    public Product findbyId(int id) {
+        Query query = em.createNativeQuery("select * from product_tb where id = :id", Product.class);
+        //execute query와 유사한 역할\
+        query.setParameter("id", id);
+        Product product = (Product)query.getSingleResult();
+        return product;
+
+    }
+
+    public Product findById2(int id) {
+        Query query = em.createNativeQuery("select * from product_tb where id = :id");
+        query.setParameter("id", id);
+        // row가 1건
+        // 1, 바나나, 1000, 50
+        Object[] object = (Object[]) query.getSingleResult();
+        int id2 = (int) object[0];
+        String name2 = (String) object[1];
+        int price2 = (int) object[2];
+        int qty2 = (int) object[3];
+
+        Product product = new Product();
+        product.setId(id2);
+        product.setName(name2);
+        product.setPrice(price2);
+        product.setQty(qty2);
+        return product;
+    }
+    @Transactional
+    public void deleteById(int id) {
+        Query query = em.createNativeQuery("delete from product_tb where id = :id");
+        query.setParameter("id", id);
+        query.executeUpdate();
+
+    }
+
+    @Transactional
+    public void updateBy(int id, String name, int price, int qty){
+        Query query = em.createNativeQuery("update product_tb set name = :name, price = :price, qty = :qty where id = :id");
+        query.setParameter("id", id);
+        query.setParameter("name", name);
+        query.setParameter("price", price);
+        query.setParameter("qty", qty);
+        query.executeUpdate();
+
+    }
 }
