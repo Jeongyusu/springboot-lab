@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb58fb67-d18f-4767-9041-75b28ce9801e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/demo1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/shop/mtcoding/demo1/Demo1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/shop/mtcoding/demo1/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/resources/static/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/test/java/shop/mtcoding/demo1/Demo1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/src/main/java/com/example/demo3/Demo3Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/src/main/java/com/example/demo3/HomeController1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/src/test/java/com/example/demo3/Demo3ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/SellerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/src/main/java/shop/mtcoding/mall/model/SellerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/src/test/java/shop/mtcoding/mall/model/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall/src/test/java/shop/mtcoding/mall/model/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/mall3/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/practice/mall3/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/mall3/src/main/java/shop/metacoding/mall3/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/mall3/src/main/java/shop/metacoding/mall3/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/mall3/src/main/java/shop/metacoding/mall3/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/mall3/src/main/java/shop/metacoding/mall3/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/mall3/src/main/java/shop/metacoding/mall3/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/mall3/src/main/java/shop/metacoding/mall3/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/mall3/src/main/java/shop/metacoding/mall3/model/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/mall3/src/main/java/shop/metacoding/mall3/model/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/mall3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/practice/mall3/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/src/main/java/shop/mtcoding/blog/BlogApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/src/main/java/shop/mtcoding/blog/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/src/main/resources/templates/test.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/blog/src/test/java/shop/mtcoding/blog/BlogApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/demo2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/http-method">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mall">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mall2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/practice/http-methodPractice">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/practice/mall3">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/restcontroller">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TJiUymg9fKq7ZsYw6MJ8ns5OP5" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/workspace/springboot_lab",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb58fb67-d18f-4767-9041-75b28ce9801e" name="Changes" comment="" />
+      <created>1690767603881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690767603881</updated>
+      <workItem from="1690767604887" duration="244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
